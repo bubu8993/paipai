@@ -1,0 +1,17 @@
+﻿排排 PaiPai - Cloudflare Pages 部署说明
+
+请上传这个文件夹里的内容，或者直接上传同名 zip。
+
+必须在上传包根目录看到：
+1. index.html
+2. assets 文件夹
+3. _redirects
+
+不要上传项目源码根目录。
+不要上传 src、node_modules、package.json 那一层。
+
+Cloudflare Pages Direct Upload：
+- 上传 Cloudflare标准部署版_排排PaiPai.zip
+- 或者上传 Cloudflare标准部署版_排排PaiPai 文件夹里的全部内容
+
+如果部署后白屏，通常是上传错层级：请确认 Cloudflare 文件列表根目录直接有 index.html，而不是外面又套了一层文件夹。
